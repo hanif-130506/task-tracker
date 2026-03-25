@@ -39,9 +39,9 @@ def main():
         "description": description,
         "status": "todo",
         "createdAt": datetime.now().isoformat(),
-        "updateAt": datime.now().isoformat()  
+        "updateAt": datetime.now().isoformat()  
         }
-        tasks.append(new_tasks)
+        tasks.append(new_task)
         save_tasks(tasks)
         print(f"Task added successfuly (ID : {new_task['id']})")
         
